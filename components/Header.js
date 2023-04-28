@@ -29,7 +29,9 @@ function Header() {
         ))}
         {/* <HeaderItem title="HOME" Icon={HomeIcon} /> */}
       </div>
-      <h1 className="text-3xl font-bold">Movie-Library</h1>
+      <h1 className="text-xl md:text-3xl font-bold whitespace-nowrap">
+        Movie-Library
+      </h1>
     </header>
   );
 }
